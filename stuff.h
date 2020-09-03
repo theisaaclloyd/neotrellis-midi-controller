@@ -4,8 +4,8 @@
 
 #define jump 2
 
-#define WHITE 0xffffff	   //0x009f60
-#define WHITE_DIM 0x191919 //0x000503
+#define WHITE 0xffffff
+#define WHITE_DIM 0x191919
 
 #define RED 0xff0000
 #define RED_DIM 0x190000
@@ -17,9 +17,6 @@
 #define BLUE_DIM 0x000019
 
 #define OFF 0x000000
-
-//0x009f60 - light ice blue
-//0x00cf30 - light green
 
 #define DIM 0
 #define BRIGHT 1
@@ -56,8 +53,8 @@ int offsets[2][7] = {
 int notes[8][7];
 
 int ccColors[2][8]{
-	{BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM}, // Dim
-	{BLUE, GREEN, BLUE, GREEN, BLUE, GREEN, BLUE, GREEN}								  // Bright
+	{BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM, BLUE_DIM, GREEN_DIM},	// Dim
+	{BLUE, GREEN, BLUE, GREEN, BLUE, GREEN, BLUE, GREEN}					// Bright
 };
 
 /* === functions ==================================== */
